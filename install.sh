@@ -113,7 +113,6 @@ install_path "$repo_dir/home/.zshenv" "$HOME/.zshenv"
 install_path "$repo_dir/home/.p10k.zsh" "$HOME/.p10k.zsh"
 install_path "$repo_dir/home/.tmux.conf" "$HOME/.tmux.conf"
 install_path "$repo_dir/home/.tmux" "$HOME/.tmux"
-install_path "$repo_dir/home/.gitconfig" "$HOME/.gitconfig"
 install_path "$repo_dir/config/nvim" "$HOME/.config/nvim"
 
 packer_dir="${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/pack/packer/start/packer.nvim"

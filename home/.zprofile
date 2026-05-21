@@ -5,7 +5,3 @@ if [[ -x "/opt/homebrew/bin/brew" ]]; then
 elif [[ -x "/usr/local/bin/brew" ]]; then
   eval "$(/usr/local/bin/brew shellenv)"
 fi
-
-if [[ -d "/opt/local/bin" ]]; then
-  export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-fi
